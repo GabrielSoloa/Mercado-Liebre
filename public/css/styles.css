@@ -1,0 +1,70 @@
+
+
+:root {
+    --Amarillo:#EAC926;
+    --Azul:#03264C;
+    --Celeste:#1259c3;
+    --GrisOscuro:#666;
+    --GrisClaro:#ebebeb;
+    --Verde:#39b54a;
+}
+
+body {
+    background-color: var(--Amarillo);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+/*------------------- H E A D E R -------------------*/
+
+.burger-menu{              /*icono*/
+
+    background-color: var(--Celeste);
+    color: white;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+.caja-1 {
+
+    text-align: center;
+}
+
+.buscador {
+    
+}
+
+
+/*------------------- M A I N -------------------*/
+
+.titulares {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+}
+
+.producto {
+    font-size: 16px;
+}
+
+/*------------------- F O O T E R -------------------*/
+
+.section-footer {
+
+    text-align: center;
+    line-height: 10px;
+    font-size: 2em;
+}
